@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var urlencoderParser = bodyParser.urlencoded({extended: false});
 
 //Connect to database
-mongoose.connect('mongodb://test:test@ds145292.mlab.com:45292/pvtodos');
+mongoose.connect('mongodb://XXXX:XXXX@XXXX.mlab.com:XXXX/XXXX');
 
 var todoSchema = new mongoose.Schema({
   item: String // attribute
